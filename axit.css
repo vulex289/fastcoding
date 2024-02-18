@@ -182,7 +182,7 @@ body {
     min-width: 320px;
     position: relative;
     line-height: 1.5;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: 300;
     overflow-x: hidden;
     opacity: 1;
@@ -252,7 +252,7 @@ h2 {
 
 .menu-itm {
     float: left;
-    padding: 0 10px
+    padding: 0 10px;
 }
 
 .menu-itm:hover {
@@ -267,7 +267,7 @@ h2 {
 /*BANNER*/
 .banner,
 .footer {
-    background: #35353E;
+    background: #35353e;
     color: #fff;
     text-align: center;
 }
@@ -353,7 +353,6 @@ h2 {
     color: #ff9b51;
     text-transform: uppercase;
 }
-
 
 .cta-box-head h2 {
     text-align: center;
@@ -736,7 +735,7 @@ h1.section-name {
         text-align: center;
         border: 1px solid #ccc;
         padding: 10px;
-        width: 17%
+        width: 17%;
     }
 
     .data-item {
@@ -751,7 +750,7 @@ h1.section-name {
 
     p,
     h1.section-name {
-        width: 370px
+        width: 370px;
     }
 
     .col-sm-12 {
@@ -794,5 +793,18 @@ h1.section-name {
 
     .contact-message {
         margin-right: 35px;
+    }
+
+    .pic-data {
+        width: 370px;
+        height: 303px;
+        background: url(http://content.screencast.com/users/khalinadarina/folders/Default/media/bd6cd8f8-4e5d-4880-b14d-dcecd87dfc88/download.png) no-repeat -337px -5px;
+        -webkit-box-shadow: 0px 22px 30px 0px rgba(204, 204, 204, 0.48);
+        -moz-box-shadow: 0px 22px 30px 0px rgba(204, 204, 204, 0.48);
+        box-shadow: 0px 22px 30px 0px rgba(204, 204, 204, 0.48);
+    }
+
+    h2.section-name {
+        margin-top: 20px;
     }
 }
